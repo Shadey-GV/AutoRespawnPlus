@@ -1,0 +1,7 @@
+checkForUpdates: true
+
+enabled: true
+
+blocked-worlds:
+- BlockedWorld1
+- BlockedWorld2
