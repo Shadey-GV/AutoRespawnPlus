@@ -1,0 +1,44 @@
+version: 3.0
+name: AutoRespawnPlus
+author: iShadey
+main: me.ishadey.autorespawn.Main
+description: Automagically respawn!
+
+commands:
+  arp:
+    description: Main command.
+    aliases: [autorp, arplus, autorespawnplus]
+
+permissions:
+  autorespawn.respawn:
+    description: Automagically respawn.
+    default: true
+  autorespawn.help:
+    description: Ability to use /arp help.
+    default: op
+  autorespawn.enable:
+    description: Ability to enable auto respawning.
+    default: op
+  autorespawn.disable:
+    description: Ability to disable auto respawning.
+    default: op
+  autorespawn.toggle:
+    description: Ability to toggle auto respawning.
+    default: op
+  autorespawn.check:
+    description: Ability to check for updates.
+    default: op
+  autorespawn.update:
+    description: update
+    default: op
+  autorespawn.*:
+    childeren:
+      autorespawn.update: true
+      autorespawn.check: true
+      autorespawn.toggle: true
+      autorespawn.disable: true
+      autorespawn.enable: true
+      autorespawn.help: true
+      autorespawn.respawn: true
+    default: op
+    description: All permissions.
