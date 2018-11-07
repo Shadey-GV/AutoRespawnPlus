@@ -41,7 +41,6 @@ public class PlayerAutoRespawnEvent extends Event {
 			Projectile a = (Projectile) p.getLastDamageCause().getEntity();
 			if ((a.getShooter() instanceof Player))
 				return true;
-			return false;
 		}
 		return false;
 	}

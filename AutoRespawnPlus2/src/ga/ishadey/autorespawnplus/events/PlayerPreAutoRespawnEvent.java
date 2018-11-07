@@ -40,7 +40,7 @@ public class PlayerPreAutoRespawnEvent extends Event implements Cancellable {
 	}
 
 	public Player getKiller() {
-		return this.p.getKiller();
+		return p.getKiller();
 	}
 
 	public HandlerList getHandlers() {

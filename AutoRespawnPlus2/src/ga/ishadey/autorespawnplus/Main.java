@@ -37,7 +37,7 @@ public class Main extends JavaPlugin implements Listener {
 			config.load(file);
 		} catch (Exception e) {
 			getLogger().log(Level.WARNING, "Could not load config.yml, exception: " + e.getCause());
-			getLogger().log(Level.WARNING, "Please check your config for errors:");
+			getLogger().log(Level.WARNING, "Please check your config for errors: ");
 			e.printStackTrace();
 		}
 	}

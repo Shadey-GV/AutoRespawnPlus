@@ -50,7 +50,7 @@ public class Cmd implements CommandExecutor {
 					if (plugin.spu.hasUpdate()) {
 						sender.sendMessage(cc("&aVersion " + plugin.spu.getLatestVersion()
 								+ " is now available! You are " + plugin.spu.getVersionsBehind()
-								+ " versions behind. Update at http://joshuahagon.ga/url/autorespawnplus"));
+								+ " versions behind. Update at https://url.joshuahagon.co.uk/autorespawnplus"));
 						return true;
 					}
 					sender.sendMessage(cc("&aYou're all up to date."));
@@ -98,7 +98,7 @@ public class Cmd implements CommandExecutor {
 		sender.sendMessage(" ");
 		sender.sendMessage(cc("&7Author: &aiShadey // TrollStar12345"));
 		sender.sendMessage(cc("&7Version: &a" + v));
-		sender.sendMessage(cc("&ahttp://joshuahagon.ga/url/autorespawnplus"));
+		sender.sendMessage(cc("&ahttps://url.joshuahagon.co.uk/autorespawnplus"));
 		sender.sendMessage(" ");
 	}
 

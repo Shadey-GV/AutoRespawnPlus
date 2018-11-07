@@ -113,7 +113,7 @@ public class SpigotUpdater implements Listener {
 			for (Player p : Bukkit.getOnlinePlayers())
 				notifyUpdate(p);
 		} catch (Exception e) {
-			System.out.println("[" + plugin.getName() + " Failed to check for update.");
+			System.out.println("[" + plugin.getName() + "] Failed to check for update.");
 		}
 	}
 
